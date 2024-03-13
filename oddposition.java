@@ -3,8 +3,7 @@ public class oddposition {
         String text = "type here to search";
         printOddPositionChars(text);
     }
-
-    public static void printOddPositionChars(String text) {
+public static void printOddPositionChars(String text) {
         for (int i = 0; i < text.length(); i++) {
             if (text.charAt(i) == ' ') {
                 continue;
